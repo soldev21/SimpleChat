@@ -18,6 +18,6 @@ ClientHandler works on separated thread and handles requests from client and sen
 
 In project Main class starts ChatServer. TestClient attempt to connect to server. If connection succeed then gets input and output streams from newly created socket. Listens input stream in separated thread and writes to output stream from the console input.
 You have to send message in RequestObject - equivalent json format. 
-RequestObject : {"header":{	"receiverId":"1"},"body":{"message":"HELLO MEM!"}}
-ResponseObject : {"header":{	"senderId":"0"},"body":{"message":"HELLO MEM!"}}
+RequestObject : {"header":{	"receiverId":"1"},"body":{"message":"HELLO!"}}
+ResponseObject : {"header":{	"senderId":"0"},"body":{"message":"HELLO!"}}
 
